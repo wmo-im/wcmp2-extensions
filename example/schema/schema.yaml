@@ -1,0 +1,16 @@
+$schema: 'https://json-schema.org/draft/2020-12/schema'
+$id: 'https://raw.githubusercontent.com/wmo-im/wcmp2-extensions/main/example/schema/schema.yaml'
+title: WCMP2 sample extension
+description: WCMP2 sample extension
+
+type: object
+
+properties:
+  properties:
+    type: object
+    required:
+      - example:model_name
+    properties:
+      example:model_name:
+        type: string
+        description: name of model
